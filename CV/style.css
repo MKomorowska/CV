@@ -1,0 +1,98 @@
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+body
+{
+	margin: 0;
+	font: 16px;
+	line-height: 1.8em;
+	font-family: 'Quicksand', sans-serif;
+}
+
+section
+{
+	margin: 1em;
+}
+
+header, main, footer
+{
+	margin: 0 auto;
+}
+header
+{
+	padding: 4em;
+	 text-align: center;
+	 color: white;
+	 background-size: cover;
+	 background-image: url('img/bcgr.jpg');
+	 background-position: center;
+	 box-shadow: 0px 4px 9px silver;
+}
+header section
+{
+  margin: 0 auto;
+  width: 550px;
+}
+header img
+{
+	background-image: me.jpg;
+	border-radius: 150px;
+	box-shadow: 0px 0px 9px black;
+}
+
+h3
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align:center;
+}
+h2
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align:left;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+h1
+{
+  margin: 1em 0;
+}
+
+main
+{
+  max-width: 1140px;
+}
+.story
+{
+	text-align: justify;
+}
+.interests
+{
+	text-align: center;
+}
+.interest
+{
+	display: inline-block;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+.interest img
+{
+	width: 300px;
+	height: 300px;
+	box-shadow: 4px 4px 9px silver;
+}
+main .interests .description
+{
+	width: 300px;
+	text-align: justify;
+	
+}
+footer
+{
+	margin-top: 100px;
+	padding: 0.1vh;
+	text-align: center;
+	color: white;
+	background-color: #d0b52a;
+}
